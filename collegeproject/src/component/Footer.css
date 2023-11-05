@@ -1,0 +1,172 @@
+/* /* .Footer {
+    height: 400px;
+    width: 100%;
+    background-color: #492BA0;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .Copyright {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(84, 83, 83);
+    text-align: center;
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 50px;
+  }
+  
+  /* .left,
+  .College {
+    height: 350px;
+    width: 50%;
+    color: #f5ebeb;
+    background:red;
+  } */
+  
+  /* .left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%; 
+    background: red;
+    margin-top: 50px;
+  }
+  
+  .left div {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .left div li {
+    list-style-type: none;
+    color: white;
+    font-size: 0.85rem;
+    margin-top: 5px;
+  }
+  .College {
+    /* background-color: #a5a2ad; */
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-evenly; */
+    /* width: 40%;
+    margin-top: 40px;
+    background:red;
+  }
+  
+  .College div {
+    /* background-color: #492BA0; */
+    /*height: 100px;
+    width: 100%;
+    display: flex;
+  }
+  .College p{
+    margin-right: 100px;
+    line-height: 30px;
+  }
+  .Address{
+    font-size:.6rem;
+    background: blue;
+    width:50%;
+  }
+  .Address span{
+    font-weight: bold;
+  }
+   .social-icons {
+    display: flex;
+    height: 80px; */
+    /* background-color: #492BA0; */
+/* }
+.icon {
+    font-size: 30px;
+    margin:0 10px;
+    transition: all 0.5s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}  */
+
+  
+.FooterOuter{
+  height:400px;
+  background:#492BA0;
+  width:100%;
+  margin-top:10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.FooterLeftSection{
+  height:300px;
+  width:40%;
+  display:flex;
+  color:whitesmoke;
+  justify-content: space-evenly;
+  margin-top:4rem;
+}
+.Quicklink{
+  text-align:left;
+  font-size: .8rem;
+}
+.Admission{
+  text-align:left;
+  font-size: .8rem;
+}
+.FooterCollegeSection{
+  height:300px;
+  width:35%;
+  margin-top:4rem;
+  background: #492BA0;
+
+}
+.CollegeDetailSection{
+  display: flex;
+  justify-content: space-evenly;
+}
+.CollegeName{
+    height:50px;
+    width:60%;
+    margin-top:1.5rem;
+    color:white;
+    font-size: .85rem;
+    font-weight:500;
+}
+ul{
+  list-style-type: none;
+}
+.Address{
+  font-size:0.75rem;
+  color: white;
+}
+.Copyright{
+  width: 100%;
+  height: 50px;
+  color: rgb(255, 250, 250);
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: rgb(56, 54, 54);
+  line-height: 50px;
+}
+@media (max-width: 480px) {
+  .FooterOuter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .FooterLeftSection, .FooterCollegeSection {
+    width: 100%; 
+  }
+
+  .CollegeName {
+    font-size: 0.65rem;
+  }
+}
+
+
+
+
+
