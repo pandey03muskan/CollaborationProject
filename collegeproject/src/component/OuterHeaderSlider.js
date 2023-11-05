@@ -1,10 +1,9 @@
 import './OuterHeaderSlider.css'
-function Outer(){
+
+function Outer(props){
     return(
         <div className="outer">
-            <header>
-                <div class="upperHeader"></div>
-            </header>
+            {props.children}
         </div>
     );
 }
